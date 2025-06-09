@@ -1,0 +1,19 @@
+.secondary-button {
+  border: none;
+  background-color: #1A2856;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  & i {
+    font-size: 20px;
+  }
+}
+
+.secondary-button:hover {
+  opacity: 90%;
+}
