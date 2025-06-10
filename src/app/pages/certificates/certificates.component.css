@@ -1,0 +1,53 @@
+.custom-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0;
+  color: #020817;
+}
+
+.title-container {
+  margin-bottom: 32px;
+}
+
+.custom-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #64748B;
+}
+
+.custom-card {
+  padding: 48px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  max-width: 672px;
+}
+
+.card-title {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #020817;
+}
+
+.card-subtitle {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #64748B;
+}
+
+i {
+  font-size: 48px;
+  color: #64748B;
+}
+
+.certificate-list {
+  max-width: 672px;
+}
