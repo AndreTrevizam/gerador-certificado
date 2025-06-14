@@ -1,0 +1,104 @@
+.custom-card {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  max-width: 672px;
+}
+
+.title-container {
+  margin-bottom: 32px;
+}
+
+.card-title {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #1A2856;
+  margin-bottom: 20px;
+}
+
+.activity-group {
+  margin-bottom: 32px;
+}
+
+label {
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #1a2856;
+}
+
+.item-list {
+  width: 100%;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 12px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & .remove-btn {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    color: #E95F5F;
+    padding: 5.75px;
+    border-radius: 4px;
+    transition: .1s ease-in;
+
+    &:hover {
+      color: #D71D1D;
+      background-color: #E2E8F0;
+    }
+  }
+}
+
+.item-list hr {
+  all: unset;
+  display: block;
+  height: 1px;
+  margin: 10px 0;
+  background-color: #E2E8F0;
+}
+
+.custom-input {
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  padding: 8px 12px;
+  height: 40px;
+}
+
+.custom-input:focus {
+  border: 1px solid #3b5ac2;
+  box-shadow: none;
+}
+
+.custom-input-group:has(input:focus) label {
+  color: #3b5ac2;
+}
+
+.error-message {
+  margin-top: 8px;
+  gap: 4px;
+  color: #D71D1D;
+}
+
+.error-message p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+
+.custom-input-group:has(.error-message) label {
+   color: #D71D1D;
+}
